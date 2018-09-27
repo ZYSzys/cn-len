@@ -1,0 +1,43 @@
+{
+  "name": "cn-len",
+  "version": "0.0.0",
+  "description": "Calculate the Chinese string length in command line.",
+  "license": "MIT",
+  "repository": "ZYSzys/cn-len",
+  "author": {
+    "name": "ZYSzys",
+    "email": "17367077526@163.com",
+    "url": "zyszys.top"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc ava -v",
+    "lint": "standard --fix"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "length",
+    "cn"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "0.25.0",
+    "codecov": "3.1.0",
+    "nyc": "13.0.1",
+    "standard": "*"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
