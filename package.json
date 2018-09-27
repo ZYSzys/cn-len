@@ -1,6 +1,6 @@
 {
   "name": "cn-len",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Calculate the Chinese string length in command line.",
   "license": "MIT",
   "repository": "ZYSzys/cn-len",
